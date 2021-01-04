@@ -17,7 +17,7 @@ htop
 lf
 lutris
 microsoft-edge-dev-bin
-neovim-nightly
+neovim-git
 picom
 polybar
 popsicle-git
