@@ -12,7 +12,9 @@ fi
 pgrep -x sxhkd > /dev/null || sxhkd &
 pgrep -x picom > /dev/null || picom &
 pgrep -x alacritty > /dev/null || alacritty &
+
 $HOME/.config/polybar/launch.sh
+$HOME/.config/feh/launch.sh
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 

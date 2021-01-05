@@ -15,9 +15,15 @@ firefox
 gamemode
 htop
 lf
+lib32-nvidia-utils 
+lib32-vulkan-icd-loader
 lutris
 microsoft-edge-dev-bin
+nautilus
 neovim-git
+nvidia-dkms 
+nvidia-settings 
+nvidia-utils 
 picom
 polybar
 popsicle-git
@@ -29,6 +35,7 @@ sxhkd
 tlp
 ttf-cascadia-code
 vim
+vulkan-icd-loader 
 wget
 which
 wine-staging
