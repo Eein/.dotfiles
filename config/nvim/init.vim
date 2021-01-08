@@ -49,6 +49,7 @@ nnoremap 0 ^
 cnoreabbrev E Lf
 
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd BufRead,BufNewFile *.{exs} setlocal filetype=elixir
 
 if executable('rg')
   set grepprg=rg\ --color=never
