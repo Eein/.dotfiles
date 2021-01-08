@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'sheerun/vim-polyglot'
   Plug 'kien/ctrlp.vim'
   Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-commentary'
   Plug 'tpope/vim-repeat'
   Plug 'tpope/vim-endwise'
   Plug 'tpope/vim-sleuth'
