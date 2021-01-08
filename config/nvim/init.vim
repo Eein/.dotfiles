@@ -1,5 +1,5 @@
 call plug#begin('~/.vim/plugged')
-  Plug 'drewtempelmeyer/palenight.vim'
+  Plug 'sainnhe/edge'
   Plug 'itchyny/lightline.vim'
   Plug 'mhinz/vim-grepper', { 'on': ['Grepper', '<plug>(GrepperOperator)'] }
   Plug 'sheerun/vim-polyglot'
@@ -40,9 +40,9 @@ set background=dark
 set splitright
 set splitbelow
 
-colorscheme palenight
-let g:palenight_terminal_italics=1
-let g:lightline = { 'colorscheme': 'palenight' }
+colorscheme edge
+let g:edge_terminal_italics=1
+let g:lightline = { 'colorscheme': 'edge' }
 
 imap jj <Esc>
 nnoremap 0 ^
