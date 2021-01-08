@@ -4,7 +4,7 @@
 
 # terminal emulator
 alt + Return
-	alacritty
+	alacritty --working-directory $PWD
 
 # program launcher super + @space
 alt + @space
@@ -40,6 +40,8 @@ alt + g
 
 # set the window state
 #
+alt + {t,shift + t,s,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # focus the node in the given direction
 alt + {_,shift + }{h,j,k,l}
