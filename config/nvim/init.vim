@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-repeat'
   Plug 'tpope/vim-endwise'
   Plug 'tpope/vim-sleuth'
+  Plug 'tpope/vim-fugitive'
   Plug 'terryma/vim-multiple-cursors'
   Plug 'qpkorr/vim-bufkill'
   Plug 'ap/vim-buftabline'

@@ -1,12 +1,5 @@
 #! /bin/sh
 
-# Setup up varying monitor resoultions by hostname
-if test "$HOSTNAME" = "shibusa"; then
-  xrandr --output DP-4 --mode 3440x1440 --rate 100
-elif test "$HOSTNAME" = "nanami"; then
-  xrandr --output DP-4 --mode 1920x1080 --rate 120
-fi
-
 # cleanup
 
 pgrep -x sxhkd > /dev/null || sxhkd &
@@ -28,3 +21,14 @@ bspc config gapless_monocle      true
 bspc rule -a Alacritty border=off
 bspc rule -a discord border=off
 bspc rule -a firefox border=off
+
+# Setup up varying monitor resoultions by hostname
+if test "$HOSTNAME" = "shibusa"; then
+  xrandr --output DP-4 --mode 3440x1440 --rate 100
+
+  bspc rule -a ckb-next desktop=^10
+  pgrep -x ckb-next > /dev/null || ckb-next &
+elif test "$HOSTNAME" = "nanami"; then
+  xrandr --output DP-4 --mode 1920x1080 --rate 120
+fi
+

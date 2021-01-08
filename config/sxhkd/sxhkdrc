@@ -14,6 +14,12 @@ alt + @space
 alt + Escape
 	pkill -USR1 -x sxhkd
 
+@Print
+  scrot '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
+
+shift + @Print
+  scrot -s '/tmp/%F_%T_$wx$h.png' -e 'xclip -selection clipboard -target image/png -i $f'
+
 # media controls
 XF86AudioMute
     pactl set-sink-mute 0 toggle
