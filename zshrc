@@ -8,6 +8,10 @@ fi
 alias vim="nvim "
 alias ls="exa"
 alias cat="bat"
+alias dcdup="docker-compose down && docker-compose up"
+alias dcd="docker-compose down"
+
+source /opt/asdf-vm/asdf.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme

@@ -19,6 +19,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'matze/vim-move', { 'tag': 'v1.3' }
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'neomake/neomake'
+  Plug 'sbdchd/neoformat'
   Plug 'ptzz/lf.vim'
 call plug#end()
 
@@ -51,6 +52,7 @@ cnoreabbrev E Lf
 
 autocmd BufWritePre * :%s/\s\+$//e
 autocmd BufRead,BufNewFile *.{exs} setlocal filetype=elixir
+autocmd BufWritePre *.js Neoformat
 
 if executable('rg')
   set grepprg=rg\ --color=never

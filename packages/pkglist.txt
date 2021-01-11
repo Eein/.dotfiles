@@ -1,8 +1,8 @@
 alacritty
 antibody
 antimicrox
+asdf-vm
 bat
-bspwm
 ckb-next-git
 clamtk
 curl
@@ -10,7 +10,6 @@ discord
 docker
 docker-compose
 exa
-feh
 firefox
 gamemode
 htop
@@ -24,15 +23,10 @@ neovim-git
 nvidia-dkms
 nvidia-settings
 nvidia-utils
-picom
-polybar
 popsicle-git
 rcm
 ripgrep
-rofi
-scrot
 spotify
-sxhkd
 tlp
 ttf-cascadia-code
 vim
@@ -42,6 +36,5 @@ which
 wine-staging
 wowup
 xclip
-yelp
 zsh
 zsh-theme-powerlevel10k-git
